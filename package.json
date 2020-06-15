@@ -2,9 +2,9 @@
   "name": "internal-insights",
   "version": "1.0.1",
   "description": "for internal usage of app insights",
-  "main": "dist/internal-insights.js",
+  "main": "dist/internal-insights.min.js",
   "files": [
-    "dist/internal-insights.js",
+    "dist/internal-insights.min.js",
     "src"
   ],
   "scripts": {
