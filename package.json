@@ -1,6 +1,6 @@
 {
   "name": "internal-insights",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "for internal usage of app insights",
   "main": "dist/internal-insights.min.js",
   "files": [
