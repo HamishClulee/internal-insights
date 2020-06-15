@@ -1,0 +1,32 @@
+{
+  "name": "internal-insights",
+  "version": "1.0.0",
+  "description": "for internal usage of app insights",
+  "main": "dist/internal-insights.js",
+  "files": [
+    "dist/internal-insights.js",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel src/index.js --out-file dist/internal-insights.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamishClulee/internal-insights.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "application-insights"
+  ],
+  "author": "Hamish Clulee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HamishClulee/internal-insights/issues"
+  },
+  "homepage": "https://github.com/HamishClulee/internal-insights#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2"
+  }
+}
