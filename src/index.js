@@ -47,6 +47,6 @@ export const initAppInsights = (vue, key) => {
     }
 }
 
-export const userLogin = (userid) => {
+export const notifyAppInsightsOfUserLogin = (userid) => {
     appInsights.setAuthenticatedUserContext(userid)
 }
