@@ -24,9 +24,9 @@ export const initAppInsights = (vue, key) => {
         appInsights.trackEvent({
             name: 'Client Side error.',
             properties: {
-                error: JSON.stringify(err, null, 2),
-                vue: JSON.stringify(vm, null, 2),
-                source: JSON.stringify(info, null, 2)
+                error: err|| 'No value provided',
+                vue: 'No value provided',
+                source: info || 'No value provided'
             }
         })
     }
@@ -36,11 +36,11 @@ export const initAppInsights = (vue, key) => {
         appInsights.trackEvent({
             name: 'Client Side error, Window handler.',
             properties: {
-                error: JSON.stringify(error, null, 2),
-                msg: JSON.stringify(msg, null, 2),
-                url: JSON.stringify(url, null, 2),
-                line: JSON.stringify(line, null, 2),
-                col: JSON.stringify(col, null, 2)
+                error: error || 'No value provided',
+                msg: msg || 'No value provided',
+                url: url || 'No value provided',
+                line: line || 'No value provided',
+                col: col || 'No value provided'
             }
         })
 
