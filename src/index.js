@@ -24,7 +24,7 @@ export const initAppInsights = (vue, key) => {
         appInsights.trackEvent({
             name: 'Client Side error.',
             properties: {
-                error: err|| 'No value provided',
+                error: err || 'No value provided',
                 vue: 'No value provided',
                 source: info || 'No value provided'
             }
